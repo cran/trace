@@ -1,10 +1,10 @@
-f9cd534168eb4ae1462a0a67fcc78a48 *DESCRIPTION
+146890618278e035dffb09ce1062713d *DESCRIPTION
 a0344bb134f2ae4da62282028f8831c5 *LICENSE
 3fe56677db5cd7a628c39596b2c89edc *NAMESPACE
-f1cae94d346f7bdec265678094720dc9 *NEWS.md
+48e0ac8185afccb62d7be4807426788c *NEWS.md
 800664f43491073f00eb0e2009acdbba *R/add_metadata.R
 3eb045e429c627559b65397a377c071d *R/assign_index_peaks.R
-08ee87922c9ccad4496ce2cbaa36e77a *R/calculate_instability_metrics.R
+0bc9003e12ca5395e2d70e0e0518c30f *R/calculate_instability_metrics.R
 8a6bdee6b6b3b9682f3c89546e0ab787 *R/call_repeats.R
 62bde9cbfcfb2bbb480b9137ef87e4fa *R/classes.R
 7e143afc97af8347170defa39b184b45 *R/constructors.R
@@ -18,7 +18,7 @@ c0468aa6be574a47ddfe94d8fdf6a69f *R/misc.R
 ebfd7e7fc72d278d5f51951dc8e00ba2 *R/plotting.R
 bd1cf58b9746b89823f0b9638d5998b9 *R/read_fsa.R
 5e51e47ad82ca56fcd81467a7d71faa2 *R/trace-package.R
-8d777762b405c3da346b22751484742c *README.md
+f621176f8d200df4a4f805c3914572d4 *README.md
 b54db8794555342c4feee5fe0b1b8f5b *build/partial.rdb
 15afc8759d999ec61e34c85bb305b80b *build/vignette.rds
 cc8bf538c29712254f679631fe93cb9f *data/cell_line_fsa_list.rda
@@ -27,8 +27,8 @@ a7bda66b6a5898bea67e262fe37c0fbe *data/example_data.rda
 c764c66e96623bf155f1b2a25390d9a1 *data/metadata.rda
 fbb5090f70bc0d41574e126176d59d2a *inst/CITATION
 35b2254eeb35263c86c2bc6fb99384b9 *inst/doc/plotting_traces.R
-308f58d8bcf58513b9e68409fe574127 *inst/doc/plotting_traces.Rmd
-0e3759e1160219fe91d6ae33c9f58258 *inst/doc/plotting_traces.html
+b01118b8eeed20b6f8f5ca3738bb58bd *inst/doc/plotting_traces.Rmd
+161237fbfacdf54027eb15fd4379a3b0 *inst/doc/plotting_traces.html
 a634a4330e3c6d358a3330bbb3d5c9d1 *inst/extdata/_extensions/template.qmd
 a0379ce8117263fad23f8a51eeee28e6 *man/add_metadata.Rd
 90bf9ff06858fcda1792a0b52ebbbae8 *man/assign_index_peaks.Rd
@@ -40,12 +40,12 @@ a0379ce8117263fad23f8a51eeee28e6 *man/add_metadata.Rd
 d0da0948e35bb5c877d72c9c19808df9 *man/extract_alleles.Rd
 4ac86e9014090cbd9288965ccea45ad6 *man/extract_fragments.Rd
 3f9a3a4b68748f3eb38e9667f81fb2a8 *man/extract_ladder_summary.Rd
-ec4fa235d619e93e311de28dfd41ff76 *man/extract_repeat_correction_summary.Rd
+c8a8d899d1a0349194f42ae331ca0442 *man/extract_repeat_correction_summary.Rd
 ba526a51daf024bcff64d8e935c20f11 *man/extract_trace_table.Rd
-3b99a2e79e2f24a6c357a509b32c6fe3 *man/figures/README-ggplot-1.png
+1fdb787476ce0e4ae7543581b3021e6e *man/figures/README-ggplot-1.png
 3a708613924e60db8c853746ea1eac17 *man/figures/README-plot_fragments-1.png
 10f9a13a31eda7047ef4d8d5d62e3bd5 *man/figures/README-plot_ladders-1.png
-c8d31855e978043183510da8157688bf *man/figures/README-plot_traces-1.png
+1744fc9b830e3d4819b63882bbd44c13 *man/figures/README-plot_traces-1.png
 10b4d101d201e51933df409a180091e1 *man/figures/README-unnamed-chunk-2-1.png
 012c2f48ad262f38d24e2e0890b1cea8 *man/figures/README-unnamed-chunk-3-1.png
 9314a381b1f46626dbf6c3987574232a *man/figures/ladder_fixing.gif
@@ -56,7 +56,7 @@ fa87391e2537579bfcda22cba118a964 *man/fix_ladders_interactive.Rd
 85882e103a622e0fb40214f012ca4cdc *man/fix_ladders_manual.Rd
 3f715beb9917193d0a18bc06a8678a93 *man/fragments.Rd
 7021536857c46dad54fe1a72c8eb606f *man/fragments_repeats.Rd
-c3e38ba4e06662f47ab56dc908df5822 *man/fragments_trace.Rd
+9189afe5fc12b01d8083488337c604ae *man/fragments_trace.Rd
 97ce457a36aae15fccc49313ca44ed57 *man/generate_trace_template.Rd
 c4e66cf385e25ece41ee26d2802c5cd6 *man/metadata.Rd
 ad1a6a8cd8c28bef87ee18ba865197ec *man/peak_table_to_fragments.Rd
@@ -74,7 +74,7 @@ cafddcd2589c2d023befd01b88968237 *tests/testthat.R
 e3199c00a876ca524b0160135e0420fa *tests/testthat/test-add_metadata.R
 b842ab62712d674604b216e0de36a82a *tests/testthat/test-assign_index_peaks.R
 a29b0bf88772c989b5f9780f8acbc369 *tests/testthat/test-calculate_instability_metrics.R
-0b42e6b4fd950e3fd20de2b01d91d3f8 *tests/testthat/test-call_repeats.R
+367a9867f06a56beee66aaee394069aa *tests/testthat/test-call_repeats.R
 d7fb8597ca6ce98c6bc331dd829a03e4 *tests/testthat/test-classes.R
 f4231fe53363c95845a600a340b9febd *tests/testthat/test-constructors.R
 a83dea6fd483ff145300d2aaab513f28 *tests/testthat/test-extract_functions.R
@@ -84,6 +84,6 @@ f983d31ec804aed44c6588324f93291f *tests/testthat/test-find_ladders.R
 267ac870a6eb1db722c4154e9924dac2 *tests/testthat/test-full-pipeline.R
 d41d8cd98f00b204e9800998ecf8427e *tests/testthat/test-plotting.R
 d41d8cd98f00b204e9800998ecf8427e *tests/testthat/test-read_fsa.R
-576066ebdd3978e2268eade2a08ecffb *tests/testthat/test-shinytest2.R
+1bf6e12dd5fc723df9f7211440871465 *tests/testthat/test-shinytest2.R
 d41d8cd98f00b204e9800998ecf8427e *tests/testthat/test-tidiers.R
-308f58d8bcf58513b9e68409fe574127 *vignettes/plotting_traces.Rmd
+b01118b8eeed20b6f8f5ca3738bb58bd *vignettes/plotting_traces.Rmd
